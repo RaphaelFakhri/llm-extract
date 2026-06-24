@@ -1,0 +1,46 @@
+{
+  "records": [
+    {
+      "sku": "SA-1001",
+      "title": "Aurora Desk Lamp",
+      "price": 49.99,
+      "currency": "USD",
+      "availability": "In stock",
+      "specs": [
+        {"name": "Color", "value": "Matte Black"},
+        {"name": "Power", "value": "9 W"},
+        {"name": "Height", "value": "45 cm"}
+      ],
+      "source": "source_a",
+      "record_id": "product_001"
+    },
+    {
+      "sku": "SA-1002",
+      "title": "Nimbus Wall Clock",
+      "price": null,
+      "currency": null,
+      "availability": "Preorder",
+      "specs": [
+        {"name": "Diameter", "value": "30 cm"},
+        {"name": "Material", "value": "Oak"}
+      ],
+      "source": "source_a",
+      "record_id": "product_002_missing_price"
+    },
+    {
+      "sku": "SA-1003",
+      "title": "Cobalt Office Chair",
+      "price": 1299.0,
+      "currency": "USD",
+      "availability": "In stock",
+      "specs": [
+        {"name": "Max Load", "value": "120 kg"},
+        {"name": "Adjustable Height", "value": "Yes"},
+        {"name": "Armrests", "value": "4D"},
+        {"name": "Warranty", "value": "5 years"}
+      ],
+      "source": "source_a",
+      "record_id": "product_003_nested_specs"
+    }
+  ]
+}
